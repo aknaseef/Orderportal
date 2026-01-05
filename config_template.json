@@ -1,0 +1,10 @@
+{
+    "app_name": "My Pharmacy Portal",
+    "admin_password": "CHANGE_ME_TO_SECURE_PASSWORD",
+    "stock_file": "stock.csv",
+    "orders_file": "orders.csv",
+    "branches": {
+        "Branch 1 Name": "1234",
+        "Branch 2 Name": "5678"
+    }
+}
