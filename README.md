@@ -1,17 +1,31 @@
-# 💊 Open Source Pharmacy Ordering Portal
+# 🏥 Pharmacy Order Portal
 
-A simple, free, and self-hosted inventory management system for small pharmacies. 
-Built with Python and Streamlit.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## 🚀 Features
-- **Centralized Stock:** Main branch uploads Excel/CSV stock lists.
-- **Branch Ordering:** Branches see live stock and request items.
-- **Privacy First:** Runs locally or on your private cloud. No data tracking.
-- **Universal Import:** Works with any POS export format.
+**A lightweight, self-hosted inventory management system for independent pharmacy chains.**
 
-## 🛠️ How to Run Locally
-1. Clone this repository.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+## 📚 Documentation
+* **[📖 User Manual](USER_MANUAL.md)** – Instructions for Pharmacists & Admins on how to use the app daily.
+* **[⚙️ IT Setup Guide](#configuration)** – For IT Admins installing the software.
+
+---
+
+## 🚀 Quick Start (For IT Admins)
+
+### 1. Installation
+To set this up on a Windows Server or PC:
+```bash
+git clone [https://github.com/YOUR_USERNAME/Pharmacy-Order-Portal.git](https://github.com/YOUR_USERNAME/Pharmacy-Order-Portal.git)
+cd Pharmacy-Order-Portal
+pip install -r requirements.txt
+{
+    "app_name": "My Pharmacy",
+    "admin_password": "SECURE_PASSWORD",
+    "branches": {
+        "Branch 1": "1234",
+        "Branch 2": "5678"
+    }
+}
+streamlit run app.py
 
