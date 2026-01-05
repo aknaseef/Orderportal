@@ -1,0 +1,12 @@
+# Ignore the REAL config file containing real passwords
+config.json
+
+# Ignore data files so you don't leak stock info
+*.csv
+*.xlsx
+*.xls
+
+# Ignore system files
+__pycache__/
+.DS_Store
+.env
