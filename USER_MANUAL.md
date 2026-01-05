@@ -1,6 +1,8 @@
-# 📖 Pharmacy Portal - User Guide
+# 📖 Pharmacy Portal V2 - User Guide
 
-This guide explains how to use the Pharmacy Order Portal for daily operations.
+This guide explains how to use the Pharmacy Order Portal V2 for daily operations.
+
+![Overview](images/menu_branch.png)
 
 ---
 
@@ -11,11 +13,11 @@ This guide explains how to use the Pharmacy Order Portal for daily operations.
     * Open your POS (e.g., eWF, iPharmacy).
     * Export the "Current Stock" report to Excel or CSV format.
 2.  **Login:**
-    * Open the Portal link.
     * Select **Admin Panel** from the sidebar.
     * Enter the Admin Password.
 3.  **Upload:**
     * Drag the Excel file into the "Upload" box.
+    ![Update Stock](images/admin_stock.png)
 4.  **Map Columns:**
     * Select the column that contains the **Product Name**.
     * Select the column for **Expiry Date**.
@@ -28,10 +30,11 @@ This guide explains how to use the Pharmacy Order Portal for daily operations.
 1.  **Login:** Go to **Admin Panel**.
 2.  **Check Orders:** You will see a table displaying all requests received today.
 3.  **Download:**
-    * Click the **"📥 Download CSV"** button.
-    * This downloads a single file containing every order from every branch, consolidated into one list.
+    * Click the **"📥 Download Excel"** button.
+    * This downloads a file with separate tabs for each branch.
+    ![Download Orders](images/admin_download.png)
 4.  **Clear:**
-    * Once you have saved the file safely, click **"🗑️ Clear Order History"**.
+    * Once you have saved the file safely, click **"🗑️ Clear History"**.
     * This resets the system for tomorrow's orders.
 
 ---
@@ -43,18 +46,18 @@ This guide explains how to use the Pharmacy Order Portal for daily operations.
 2.  **Login:**
     * Select your **Branch Name** from the dropdown list.
     * Enter your 4-digit **PIN**.
+    ![Login](images/login_branch.png)
 3.  **Search:**
     * Type a medicine name (e.g., "Panadol") in the search bar.
-    * *Tip:* You can also search by year (e.g., "2026") to find items expiring soon.
 4.  **Order:**
     * Check the **"Available Qty"** to ensure the Main Branch has stock.
-    * Check the **"Expiry"** date to avoid short-expiry items if not needed.
     * Type the number you need in the **"Request Qty"** box.
+    * **Note:** The system will prevent you from ordering more than what is available.
+    ![Order Error](images/order_error.png)
 5.  **Submit:**
-    * Click the red **"Submit Order"** button at the bottom of the screen.
+    * Click the red **"Submit Standard Order"** button.
     * Wait for the "Success" message to appear.
 
 ### ❓ Troubleshooting
 * **"Incorrect PIN":** You have entered the wrong password. Contact the Main Branch manager to reset it.
-* **"Waiting for Admin...":** The Main Branch has not uploaded the stock file yet. Please call them and ask them to upload the daily stock list.
-
+* **"Waiting for Admin...":** The Main Branch has not uploaded the stock file yet. Please call them.
